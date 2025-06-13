@@ -2,6 +2,10 @@
 
 **Weatherly** is a modern, React-based weather dashboard built with **React** (a JavaScript library for building user interfaces) and **Vite** (a blazing-fast frontend build tool). The app fetches real-time weather data from the **OpenWeatherMap API** to display current conditions (temperature, humidity, wind, etc.), along with forecasts. Users can search for any city to view its weather. The interface is styled with **Tailwind CSS** (a utility-first CSS framework) for rapid, customizable design. State management is handled via the React Context API to share data (like the last searched city and selected units) across components.
 
+## Demo
+
+Deployed the app via Github Pages. Check it out: https://harsha0x3.github.io/Weatherly/
+
 ## Features
 
 - Search for a city to retrieve its weather.
@@ -13,10 +17,6 @@
 - **Error handling** for invalid city names or network/API issues.
 - Store the **last searched city** in localStorage, so it’s remembered on revisit.
 - Automatic **refresh** of weather data every 30 seconds.
-
-## Demo
-
-A live demo will be available soon. _(Placeholder for GitHub Pages link)_
 
 ## Installation
 
